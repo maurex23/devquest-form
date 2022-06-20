@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest-Form</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="src/js/form.js"></script>
+</head>
+
+<body>
+    <main class="main">
+        <div class="text">
+            <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+        <form action="#" class="form">
+            <ul class="form-items">
+                <li class="items">
+                    <input type="text" name="name" id="name" class="item name" placeholder="Nome Completo *">
+                    <p class="advice ">campo obrigatório</p>
+                </li>
+                <li class="items">
+                    <input type="email" name="email" id="email" class="item email" placeholder="Email *">
+                    <p class="advice">campo obrigatório</p>
+                </li>
+                <li class="items">
+                    <input type="tel" name="celphone" id="celphone" class=" item celphone" placeholder="Telefone *">
+                    <p class="advice">campo obrigatório</p>
+                </li>
+                <li class="items">
+                    <textarea name="message" id="message" placeholder="Mensagem *" class="item message"></textarea>
+                    <p class="advice">campo obrigatório</p>
+                </li>
+            </ul>
+            <p class="alert">* campos obrigatórios</p>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </main>
+</body>
+</html>
